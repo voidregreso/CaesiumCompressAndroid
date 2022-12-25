@@ -1,7 +1,5 @@
 # Caesium Picture Compression Utility for Android
 
-------
-
 Hey y'all, this here's a real simple image batch compression app fer Android using the libcaesium library. It's got near lossless quality and can compress all sortsa images like JPG, PNG, GIF, and WEBP. Now, we had to rush this thing out, so some features ain't quite perfect yet. But don't you worry, we'll be updating it regular-like. This project uses [libcaesium](https://github.com/Lymphatus/libcaesium.git) as the main algorithm processing library and we modified it so it can make java calls to this native code.
 
 ### Steps you need to follow if you want to compile libcaesium JNI library by yourself
