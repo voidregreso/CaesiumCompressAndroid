@@ -1,0 +1,9 @@
+build arm64:
+set AR=D:/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/arm-linux-androideabi-ar.exe
+set CC=D:/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi30-clang.cmd
+cargo build --target armv7-linux-androideabi --release
+
+build arm:
+set AR=D:/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android-ar.exe
+set CC=D:/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android30-clang.cmd
+cargo build --target aarch64-linux-android --release
